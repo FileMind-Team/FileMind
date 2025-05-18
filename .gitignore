@@ -1,14 +1,13 @@
+# 📁 Игнорировать Obsidian Vault конфиг (если в docs/obsidian/)
+docs/obsidian/.obsidian/
 
-# 📁 Игнорировать папку настроек Obsidian (личные темы, плагины и т.д.)
-.vault/.obsidian/
+# 🧹 Кеши, временные файлы
+docs/obsidian/.DS_Store
+docs/obsidian/Thumbs.db
+docs/obsidian/*.log
+docs/obsidian/.Trash*
 
-# 📁 Кеши, временные файлы
-.vault/.DS_Store
-.vault/Thumbs.db
-.vault/*.log
-.vault/.Trash*
-
-# 📁 Файлы систем синхронизации
-.vault/.sync/
-.vault/.dropbox/
-.vault/.syncthing/
+# ☁️ Файлы систем синхронизации
+docs/obsidian/.sync/
+docs/obsidian/.dropbox/
+docs/obsidian/.syncthing/
